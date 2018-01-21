@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <test.com.venues.gallery.TouchImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/touchimageview"
+        android:visibility="gone"
+        />
+
+    <test.com.venues.gallery.UrlTouchImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/uriImageview">
+
+    </test.com.venues.gallery.UrlTouchImageView>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/dialog_close_iv"
+        android:layout_margin="10dp"
+        android:src="@drawable/cancel_circle_white"/>
+
+</RelativeLayout>
